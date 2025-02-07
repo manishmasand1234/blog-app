@@ -1,0 +1,25 @@
+.Outer2{
+  margin-top: 50px;
+  width: 1120px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.Inner2{
+  width: 7cm;
+  height: 7cm;
+  background-color: rgba(212, 0, 255, 0.808);
+  margin: 10px;
+}
+
+.Head3{
+  margin: auto;
+  text-align: center;
+  font-size: 36px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 100px;
+}
