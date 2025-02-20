@@ -8,9 +8,9 @@ export default function Blog() {
   let allBlogs = blogs.map((v,i) =>{
     return(
       <div className='blogItems' key={i}>
-        <p>
+        
           <h5>{v.title}</h5>
-          {v.body}
+          <p> {v.body}
           
           <button className='blogbtn'> <Link to={`/blog/${v.id}`}>Read More</Link></button>
         </p>
